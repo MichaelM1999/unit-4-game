@@ -1,0 +1,45 @@
+#title {
+    font-size: 33px;
+    background-color: orange;
+    color: white;
+    width: 245px;
+    height: 50px;
+    margin: 0px;
+}
+#bigbox {
+    background-color: peachpuff;
+    color: green;
+    width: 400px;
+    height: 350px;
+}
+#targetbox {
+    width: 150px;
+    height: 85px;
+    background-color: green;
+    margin-top: -10px;
+}
+#WL {
+    position: relative;
+    top: -101px;
+    left: 180px;
+    width: 100px;
+    height: 88px;
+    background-color: lightblue;
+    font-size: 15px;
+}
+#scorebox {
+    background-color: green;
+    color: white;
+    width: 288px;
+    height: 20px;
+}
+#bottombox {
+    background-color: green;
+    color: white;
+    width: 288px;
+    height: 93px;
+    margin-top: -10px;
+}
+#pics {
+    margin-top: -88px;
+}
