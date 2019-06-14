@@ -49,7 +49,8 @@ $('#pic3').on('click', function(){
     console.log(value3);
     console.log(score);
     $('#scoreW').text(score);
-});$('#pic4').on('click', function(){
+});
+$('#pic4').on('click', function(){
 
     let value4 = ($(this).attr("data-value4"));
     value4 = parseInt(value4);
@@ -69,5 +70,6 @@ if (score === goal) {
     alert('you Win');
     wins++;
 }
-$('#wins')
+$('#wins').text(wins);
+$('#losses').text(losses);
 })
